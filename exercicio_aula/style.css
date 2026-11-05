@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+body {
+  background-color: #5ba9d6;
+  font-family: normal 15pt Arial;
+  margin: 15px;
+  padding: 15px;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1rem; /**o padding acompanha o tamanho do elemento, ou seja, aumenta o tamanho do elemento */
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 6px rgba(15, 15, 15, 0.288);
+  width: 50%;
+  margin: auto;
+}
+
+img {
+  width: 250px; /* tamanho ideal */
+  max-width: 100%; /* mas nunca maior que a caixa onde ela está */
+  height: auto; /* altura acompanha a largura */
+  aspect-ratio: 1; /* mantém quadrada (1 por 1), pra continuar círculo */
+  object-fit: cover; /* recorta a foto em vez de esticar/achatar */
+  border-radius: 50%; /* 50% já basta pra virar círculo */
+}
