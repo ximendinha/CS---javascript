@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt - BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Verificador de idade</title>
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+      <!--o action diz onde os dados do formulário serão enviados -->
+      <form action="verificador.html" method="get">
+        <label for="Ano_nasc">Ano de Nascimento</label>
+        <input type="number" name="Ano_nasc" id="Ano_nasc" required />
+        <br />
+        <!--required significa que o campo é obrigatório-->
+
+        <label for="sexo">Sexo:</label>
+        <br />
+        <input
+          type="radio"
+          name="sexo"
+          id="masculino"
+          value="masculino"
+          required
+        />
+        <label for="masculino">Masculino</label>
+        <input
+          type="radio"
+          name="sexo"
+          id="feminino"
+          value="feminino"
+          required
+        />
+        <label for="feminino">Feminino</label>
+        <br />
+
+        <input type="submit" value="Verificar" />
+      </form>
+    </section>
+  </body>
+</html>
